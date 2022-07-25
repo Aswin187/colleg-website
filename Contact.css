@@ -1,0 +1,74 @@
+.contact_container{
+    background: var(--color-bg1);
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4rem;
+    height: 30rem;
+    margin: 7rem auto ;
+    border-radius: 1rem;
+}
+/* ------------- aside ------------ */
+.contact__aside{
+    background: pink;
+    padding: 3rem;
+    border-radius: 1rem;
+    position: relative;
+    bottom: 10rem;
+}
+.contact__aside h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: crimson;
+}
+.contact__aside p {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+    
+}
+.contact__details li {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.contact__social {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 3rem;
+}
+.contact__social a{
+    background: var(--color-bg2);
+    padding: 0.5rem;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+.contact__social a:hover {
+    background: transparent;
+}
+/*----------- FORM ----------*/
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-right: 4rem;
+}
+.form__name {
+    display: flex;
+    gap: 1.2rem;
+}
+.contact__form input[type="text"] {
+    width: 50%;
+}
+input,textarea {
+    width: 100%;
+    padding: 1rem;
+    background: var(--color-bg);
+    color: var(--color-white);
+}
+.contact__form .btn {
+    width: max-content;
+    margin-top: 1rem;
+    cursor: pointer;
+}
