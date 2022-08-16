@@ -5,8 +5,12 @@
     grid-template-columns: 50% 50%;
     gap: 4rem;
     height: 30rem;
-    margin: 7rem auto ;
+    /* margin: 7rem auto ; */
     border-radius: 1rem;
+    
+}
+.contact{
+    margin-top: 40px;
 }
 /* ------------- aside ------------ */
 .contact__aside{
@@ -15,6 +19,8 @@
     border-radius: 1rem;
     position: relative;
     bottom: 10rem;
+    margin-top: 40px;
+   
 }
 .contact__aside h2{
     text-align: center;
@@ -53,6 +59,7 @@
     flex-direction: column;
     gap: 1.2rem;
     margin-right: 4rem;
+    
 }
 .form__name {
     display: flex;

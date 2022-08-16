@@ -8,4 +8,4 @@
 
 ## Screenshot
 
-![App Screenshot](Assets/images/preview.png)
+![App Screenshot](./assets/image/preview%20(1).png)
