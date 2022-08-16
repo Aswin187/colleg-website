@@ -1,3 +1,4 @@
+
 # 📱 A website with basic frontend tools.
 
 ## College website idea
@@ -7,4 +8,4 @@
 
 ## Screenshot
 
-![App Screenshot](./Assets/image/preview%20(1).png)
+![App Screenshot](./assets/image/preview%20(1).png)
