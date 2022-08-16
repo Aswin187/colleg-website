@@ -5,7 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>College Website Design</title>
-        <link rel="stylesheet" href="index.css">
+
+        <!-- linked css -->
+        <link rel="stylesheet" href="./Assets/css/index.css">
+
+        <!-- added icons -->
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
           <!---- swiper Js ----> 
@@ -19,10 +23,10 @@
                     <h2> NEHRU COLLEGE</h2>
                     
                     <ul class="nav__menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./Assets/About.html">About</a></li>
+                        <li><a href="./Assets/Courses.html">Courses</a></li>
+                        <li><a href="./Assets/Contact.html">Contact</a></li>
                     </ul>
                  </div>
                 </nav>
@@ -37,7 +41,7 @@
                             <h3>Grow Your Skill To Adavanced Your Career Path</h3>
                             <p>Nehru Group of Institutions was established in 1968 in Kuniamuthur, Coimbatore, TamilNadu as a centre of educational excellence to nurture, guide and ignite the spirit of the young minds in Tamil Nadu and Kerala.</p>
 
-                            <a href="course.html" class="btn btn-primary">Get Started</a>
+                            <a href="./Assets/Courses.html" class="btn btn-primary" id="starting-button" >Get Started</a>
                         </div>
                         <div class="header__right">
                             <div class="header__right-image">
@@ -107,7 +111,7 @@
                            <p>BSc Biochemistry is a 3-year undergraduate course in chemical and physio-chemical processes.
                             Nanotechnology refers to the branch of science and engineering devoted to designing, producing, and using structures, devices, and systems by manipulating atoms and molecules at nanoscale
                            </p>
-                           <a href="course.html" class="btn btn-primary">Check It</a>
+                           <a href="./Assets/Courses.html" class="btn btn-primary" id="button1">Check It</a>
                             </div>
                             </articl>
 
@@ -116,7 +120,7 @@
                            <div class="course__info">
                            <h4>B.sc Coustume Design & Fashion</h4>
                            <p>B.Sc Costume Design and Fashion or Bachelor of Science in Costume Design and Fashion is an undergraduate Fashion and Interior Designing course of 3 years which is divided into 6 semesters.</p>
-                           <a href="course.html" class="btn btn-primary">Check It</a>
+                           <a href="./Assets/Courses.html" class="btn btn-primary"  id="button2">Check It</a>
                            </div>
                             </articl>
 
@@ -126,7 +130,7 @@
                            <div class="course__info">
                            <h4>MSC  Visual Communication</h4>
                            <p>M. Sc. in Visual Communication is a 2-year postgraduate course, the minimum eligibility for admission to which is the successful completion of graduation (B. Sc.) in a relevant discipline, from a recognized university.</p>
-                           <a href="course.html" class="btn btn-primary">Check It</a>
+                           <a href="./Assets/Courses.html" class="btn btn-primary"  id="button3">Check It</a>
                            </div>
                            </articl>
 
@@ -247,7 +251,7 @@
       <footer class="footer">
         <div class="container footer__container">
             <div class="footer__1">
-                <a href="index.html" class="footer__logo">
+                <a href="./index.html" class="footer__logo">
                     <h4>NEHRU COLLEGE</h4></a>
                 <p>Nehru Group of Institutions was established in 1968 in Kuniamuthur, Coimbatore, TamilNadu as a centre of educational excellence to nurture guide and ignite the spirit of the young minds.</p>
             </div>
@@ -255,10 +259,10 @@
             <div class="footer__2">
                 <h4>NAVIGATION</h4>
                 <ul class="permalink">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Assets/About.html">About</a></li>
+                    <li><a href="./Assets/Courses.html">Courses</a></li>
+                    <li><a href="./Assets/Contact.html">Contact</a></li>
                 </ul>
             </div>
 
@@ -301,20 +305,12 @@
         </div>
       </footer>
 
+      <!-- swiper bundle linked -->
       <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-      <script src="./main.js"></script>
 
+      <!-- add js -->
+      <script src="./Assets/Js/main.js"></script>
 
-      <script>
-         var swiper = new Swiper(".mySwipper" ,{
-         slidesPerView: 3,
-         spaceBetween: 30,
-         pagination: {
-         el: ".swiper-pagination",
-         clickable: true,
-         },   
-         });
-      </script>
 
     </body>
 </html>
